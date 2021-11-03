@@ -1,0 +1,20 @@
+package selfProgramming;
+
+public class CODING3 {
+
+	public static void main(String[] args) {
+		
+		String sport = "basketball";
+		int numberofplayer = 12;
+		double averageheight = 185;
+		long averagesalary = 500000;
+		char gender ='M';
+		boolean nba = true;
+		
+		System.out.println("sport = " + sport);
+		System.out.println("numberofplayer =" + numberofplayer);
+		System.out.println("averageheight =" + averageheight);
+		System.out.println("averagesalary =" + averagesalary);
+		System.out.print("gender =" + gender);
+		System.out.println();
+		System.out.println("nba  =" + nba);
