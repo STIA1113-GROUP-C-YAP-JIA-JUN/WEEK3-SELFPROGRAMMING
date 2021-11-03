@@ -1,0 +1,24 @@
+package selfProgramming;
+
+public class CODING4 {
+
+	public static void main(String[] args) {
+		
+		int x = 100, y = 20;
+		double z = 3.5, m = 40, n = 5.35, o = 4;
+		long onethousand = 1000;
+		long onemillion = 1000*onethousand;
+				
+		n = (x + y) * m;
+		o = 48%5 / 4 + z;
+		z = m - 15 + o;
+		m = (z + onemillion) / onethousand * n;
+		
+		
+		
+		System.out.println("n is :" + n);
+		System.out.printf("o is : %.2f" , o);
+		System.out.println();
+		System.out.printf("z is : %.3f" , z);
+		System.out.println();
+		System.out.printf("m is : %.2f" , m);
