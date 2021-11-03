@@ -1,0 +1,19 @@
+package selfProgramming;
+
+public class CODING1 {
+
+	public static void main(String[] args) {
+		
+		long onethousand = 1000;
+		long onemillion = 1000*onethousand;
+		long onebillion = 1000*onemillion;
+		long threebillion = 3*onebillion;
+		long fivemillion = 5*onemillion;
+		long tenmillion = 10*onemillion;
+		long onehundred = 10*10;
+		
+		System.out.println(threebillion);
+		System.out.println(fivemillion);
+		System.out.println(tenmillion);
+		System.out.println(onehundred);
+		
