@@ -1,0 +1,17 @@
+package selfProgramming;
+
+public class CODING2 {
+
+	public static void main(String[] args) {
+		
+		double hairdryerPrice = 2399;
+		double discount = 0.2*hairdryerPrice;
+		double newprice = hairdryerPrice-discount;
+		
+		double TVprice = 14999;
+		double discountforTV = 0.3*TVprice;
+		double newpriceforTV = TVprice-discountforTV;
+		
+		System.out.printf("THE PRICE AFTER DISCOUNT FOR HAIRDRYER IS RM%.2f" , newprice);
+		System.out.println();
+		System.out.printf("THE PRICE AFTER DISCOUNT FOR TV IS RM%.2f" , newpriceforTV);
